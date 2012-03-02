@@ -1,0 +1,15 @@
+TWITTER SEARCH by hashtag
+
+a twitter client script that retrieves all the unique http links in the last 100 most recent tweets using a hashtag parameter. The application should be executable from the command line and should print the results to STDOUT.
+
+We will run the script by passing it a hashtag e.g.
+$ ruby twitter_links.rb someHashtag
+
+Sample Output:
+1. http://some.url.test
+2. http://another.url.test
+3. http://again.url.test
+
+# USAGE:
+# ruby twitter_client.rb keyword limit
+# Example: ruby twitter_client.rb news 100
